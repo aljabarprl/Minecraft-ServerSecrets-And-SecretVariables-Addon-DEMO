@@ -1,0 +1,58 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "min_engine_version": [
+            1,
+            20,
+            0
+        ],
+        "uuid": "b17603c8-2448-47ee-bc91-ef2f29e5ff4a",
+        "version": [
+            0,
+            0,
+            1
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "562136b6-32d2-4fda-b867-105b44608dad",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "language": "javascript",
+            "type": "script",
+            "uuid": "e380d3e6-da1d-4cf2-a375-f78aba35642a",
+            "version": [
+                0,
+                0,
+                1
+            ],
+            "entry": "scripts/admin.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.1.0"
+        },
+        {
+            "module_name": "@minecraft/server-admin",
+            "version": "1.0.0-beta"
+        }
+    ],
+    "metadata": {
+        "url": "https://github.com/aljabarprl",
+		"authors": [
+			"Pasa ltd."
+		],
+        "license": "MIT license",
+        "product_type": "addon"
+    }
+}

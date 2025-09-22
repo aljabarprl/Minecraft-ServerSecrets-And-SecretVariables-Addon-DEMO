@@ -1,0 +1,19 @@
+# Node.js related
+/node_modules/
+/dist/
+/build/
+/coverage/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+*.env
+*.local
+
+# Backups / Temp 
+*.bak
+*.tmp
+*.log

@@ -1,0 +1,7 @@
+*.lang linguist-language=.lang
+*.lang linguist-detectable=true
+
+* text=auto
+*.json linguist-detectable=true
+*.jsonl linguist-detectable=true
+*.lang linguist-detectable=true
