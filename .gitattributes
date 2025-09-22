@@ -1,4 +1,5 @@
 *.lang linguist-detectable=true
+*.lang linguist-language=INI
 
 * text=auto
 *.json linguist-detectable=true
