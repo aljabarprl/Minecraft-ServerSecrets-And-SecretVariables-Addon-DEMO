@@ -1,4 +1,3 @@
-*.lang linguist-language=.lang
 *.lang linguist-detectable=true
 
 * text=auto
