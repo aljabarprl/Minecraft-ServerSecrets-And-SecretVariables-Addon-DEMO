@@ -35,8 +35,8 @@ else {
 system.afterEvents.scriptEventReceive.subscribe((event) => {
     //show:variables
     if (event.id === "show:variables") {
-        world.sendMessage(`§aDebug Message:§r ${DebugMessage}`);
-        world.sendMessage(`§aMax Players:§r ${maxPlayers}`);
+        world.sendMessage(`§aDebug Message:§r ${DebugMessage.toString()}`);
+        world.sendMessage(`§aMax Players:§r ${maxPlayers.toString()}`);
     }
 });
 
